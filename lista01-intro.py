@@ -128,7 +128,7 @@ cv=int(input('Informe a quantidade de carros que você vendeu: '))
 vt=int(input('Informe o valor total das suas vendas: '))
 salario=1000
 com=200
-ad=5.0*5
+ad=vt+5.0*5
 x=cv*com+salario+ad
 print('O seu salario final é de:',x)
 
@@ -144,17 +144,16 @@ b) Quantos quilômetros por litro faz o veículo.
 c) Autonomia do veículo. 
 d) Custo da viagem.
 
-od1=float(input('Digite a marcação do odometro antes da viagem: '))
-od2=float(input('Qual a marcação após a viagem: '))
-numl=float(input('Quantos litros de combustivel foram gastos? '))
-x=od2-od1
-qtd=5.00
-cap=40.00
-y=numl*5
+ant=int(input('Digite a marcação do odometro antes da viagem: '))
+dep=int(input('Qual a marcação após a viagem: '))
+numl=int(input('Quantos litros de combustivel foram gastos? '))
+x=dep-ant
+cap=40
 print('A quilometragem rodada foi de: ',x,'km')
 print('O veículo faz',numl/x,'km por litro')
 print('Em um litro o veículo faz',numl/cap)
-print('A viagem custou: ',y,' litros de gasolina') #
+print('A viagem custou: ',numl,' litros de gasolina')
+
 
 ~~ 
 
@@ -163,10 +162,10 @@ calcule quantas horas, minutos e segundos estão contidos nesta quantidade.
 Ex: 7.388 segundos = 2 horas, 3 minutos e 8 segundos.
   
 seg=int(input('Digite alguma quantidade de segundos: '))
-hora=(seg%24)
-minu=(seg%60)
-segn=(seg%3600) 
-print(hora,'horas',minu,'minu',segn,'segundos') #
+hora=seg%24
+minu=seg%60
+segn=seg%3600
+print(hora,'horas,',minu,'minutos e',segn,'segundos') #
 
 
 --
