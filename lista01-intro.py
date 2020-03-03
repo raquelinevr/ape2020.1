@@ -184,3 +184,31 @@ Exemplo: 576
 0 nota(s) de R$ 2,00
 1 nota(s) de R$ 1,00
 
+valor=int(input('Digite a quantia: '))
+notas100=valor//100
+resto=valor%100
+
+notas50=resto//50
+resto=resto%50
+
+
+notas20=resto//20
+resto=resto%20
+
+notas10=resto//10
+resto=resto%10
+
+notas5=resto//5
+resto=resto%5
+
+notas2=resto//2
+resto=resto%2
+
+notas1=resto//1
+resto=resto%1
+
+    
+
+print(f'As notas de 100 são: {notas100}\n as notas de 50 são: {notas50}\n as notas de 20 são {notas20}\n as notas de 10 são {notas10}\n as notas de 5 são {notas5}\n as notas de 2 são {notas2} e as notas de 1 são: {notas1} ')
+
+
