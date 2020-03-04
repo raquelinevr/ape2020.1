@@ -161,14 +161,17 @@ print('A viagem custou: ',numl,' litros de gasolina')
 calcule quantas horas, minutos e segundos estão contidos nesta quantidade.
 Ex: 7.388 segundos = 2 horas, 3 minutos e 8 segundos.
   
-seg=int(input('Digite alguma quantidade de segundos: '))
-hora=seg//3600
-hora=hora%60
-resto=hora%60
-minu=resto%60
-segundos=resto/1
-print(hora,'hora,',minu,'minutos e',seg,'segundos') #incompleta
+tempo=int(input('Digite uma quantidade de segundos: '))
+hora=tempo//3600
+resto=tempo%3600
 
+minuto=resto//60
+resto=resto%60
+
+segundo=resto//1
+resto=resto%1
+
+print(hora,'horas' ,minuto,'minutos' ,segundo,'e segundos')
 
 
 --
