@@ -45,4 +45,25 @@ if salario>=1000 and salario<=5000:
 if salario<1000:
     print('Baixa renda')
 
+    -
+    -
+    
+    mat=int(input('Informe sua matricula: '))
+me=int(input('Digite sua média dos exercicios: '))
+n1=int(input('Digite sua primeira nota: '))
+n2=int(input('Digite sua segunda nota: '))
+n3=int(input('Digite sua terceira nota: '))
+y=(n1+n2+n3*3)/7
+if y>=9.0:
+    print(f'Olá {mat} sua média de aproveitamento foi de {y} e seu conceito foi A ')
+elif y>=7.5 and y<9.0:
+    print(f'Olá {mat} sua média de aproveitamento foi de {y} e seu conceito foi B ')
+elif y>=6.0 and y<7.5:
+    print(f'Olá {mat} sua média de aproveitamento foi de {y} e seu conceito foi C ')
+elif y>=4.0 and y <6.0:
+    print(f'Olá {mat} sua média de aproveitamento foi de {y} e seu conceito foi D ')
+elif y<4.0:
+    print(f'Oi {mat} sua media de aproveitamento foi de {y} e seu conceito foi E' )
+    
+
 
