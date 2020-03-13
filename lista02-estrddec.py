@@ -92,6 +92,24 @@ else:
 e imprima o nome do dia da semana e se é dia útil (de segunda a sexta) ou final de semana
 (sábado e domingo). Considere que o dia 1 é o domingo.
 
+dia=int(input('Informe um numero (de 1 a 7): '))
+if dia =='1':
+    print('Hoje é domingo. Fim de semana. ')
+if dia =='2':
+    print('Hoje é segunda. Dia útil. ')
+if dia =='3':
+    print('Hoje é terça. Dia útil. ')
+if dia =='4':
+    print('Hoje é quarta. Dia útil. ')
+if dia =='5':
+    print('Hoje é quinta. Dia útil. ')
+if dia =='6':
+    print('Hoje é sexta. Dia útil. ')
+if dia =='7':
+    print('Hoje é sábado. Fim de semana. ') # sem aspas
+
+--
+
 9.Escreva um programa que solicite a digitação de um caractere qualquer do teclado e imprima 
 sua classificação: vogal, consoante, número e caractere especial. 
 
