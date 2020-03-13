@@ -73,7 +73,7 @@ op=str(input('Informe o operador: '))
 if op=='+':
 	print(n1+n2)
 elif op=='-':
-	print(n1-n2)
+	print(n1-n2) 
 elif op=='*':
 	print(n1*n2)
 elif op=='/':
@@ -112,4 +112,103 @@ if dia =='7':
 
 9.Escreva um programa que solicite a digitação de um caractere qualquer do teclado e imprima 
 sua classificação: vogal, consoante, número e caractere especial. 
+	
+	
+c=input('Digite qualquer coisa: ')
+if c=='@' or c== '!' or c== '$' or c=='#' or c== '%' or c== '=' or c== '&' or c== '(' or c=='*' or c== '+' or c== '/':
+    print('Caractere especial ')
+elif c=='a' or c=='e' or c=='i' or c=='o' or c=='u':
+    print('Vogal')
+elif for i in range(10, -1, -1):
+    print('numero')
 
+
+--
+
+10.Escreva  um  programa  que  leia  a  idade  de  um  nadador  e  classifique-o em  sua
+respectiva categoria, de acordo com a tabela abaixo:
+	
+	IDADE CATEGORIA5
+	5 a 10 anos Infantil
+	11 a 17 anos Juvenil
+	18 a 49 anos Adulto
+	50 anos ou mais Senior
+	
+id=int(input('Informe sua idade: '))
+if id >=5 and id <=10:
+	print('Infantil')
+if id >=11 and id <=17:
+	print('Juvenil ')
+if id>=18 and id <=49:
+	print('Adulto')
+else:
+	print('Senior')
+	
+--
+
+11.Escreva um programa que leia o peso e a altura de uma pessoa, determine e mostre
+o seu grau de obesidade, de acordo com a tabela seguinte.
+O grau de obesidade é determinado pelo índice de massa corpórea,
+cujo cálculo é realizado dividindo-se o peso da pessoa pelo quadrado da sua altura.
+
+peso=float(input('Informe seu peso: '))
+alt=float(input('Informe sua altura: '))
+x=peso/alt*2
+if x<26:
+    print('Normal')
+elif x>=26 and x<30:
+    print('Obeso')
+else:
+    print('Obeso Mórbido')
+    
+--
+
+12.Um  banco  concederá  um  crédito  especial  aos  seus  clientes,  de  acordo  com  o  saldo  médio
+de cada cliente no último ano. Escreva um programa que leia o nome e o saldo médio de um cliente
+e calcule o valor do créditode acordo com a tabela abaixo. 
+
+		SALDO MÉDIO  		(R$)PERCENTUAL
+		de 0 a 500 		Nenhum crédito
+		acima de 500 até 1.000 - 20% do valor do saldo médio
+		acima de 1.000 até 2.500 - 30% do valor do saldo médio 
+		acima de 2.500 		40% do valor do saldo médio
+	
+nome=input('Digite seu nome: ')
+saldo=int(input('Digite seu saldo médio: '))
+if saldo>=0 and saldo<=500:
+    print('Olá,',nome, 'nenhum saldo')
+elif saldo >=500 and saldo<=1000:
+    print(f'Olá {nome} seu saldo é de {saldo*2.0*2}')
+elif saldo>=1000 and saldo <=2500:
+    print('Olá',nome, 'seu saldo é de',saldo*0.3)
+else:
+    print('Olá',nome,' seu saldo é de' ,saldo*0.4)
+
+
+--
+
+13.Escreva um programa que leia quatro notas e calcule a média obtida, desprezando a nota mais baixa. 
+O programa deverá determinar o conceito do aluno na disciplina, de acordo com a tabela seguinte:
+	MÉDIA 		CONCEITO
+	9,0		 A
+	7,5 e < 9,0	 B
+	6,0 e < 7,5	 C
+	4,0 e < 6,0	 D
+	< 4,0		 E
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
