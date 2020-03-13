@@ -197,6 +197,91 @@ O programa deverá determinar o conceito do aluno na disciplina, de acordo com a
 	< 4,0		 E
 	
 	
+n1=float(input('Informe sua primeira nota: '))
+n2=float(input('Informe sua segunda nota: '))
+n3=float(input('Informe sua terceira nota: '))
+n4=float(input('Informe sua quarta nota: '))
+
+media = (n1+n2+n3+n4)/3
+if (n1<n2) and (n1<n3) and (n1<n4):
+    if media>=9.0:
+        print('A sua media foi',media, 'seu conceito foi A. APROVADO')
+elif (n2<n1) and (n2<n3) and (n2<n4):
+    if media>=7.5 and media <9.0:
+        print('A sua media foi',media, 'seu conceito foi B. APROVADO')
+elif (n3<n2) and (n3<n1) and (n3<n4):
+    if media >=6.0 and media <7.5:
+        print('A sua media foi',media,  'seu conceito foi C. APROVADO')
+elif (n4<n1) and (n4<n2) and (n4<n3):
+    if media >=4.0 and media <6.0:
+        print('A sua media foi',media, 'SEU CONCEITO FOI D. REPROVADO')
+else: 
+    print('Seu conceito foi E. REPROVADO. ')
+
+--
+
+14.Na primeira etapa de umconcurso, o candidato tem que fazer duas provas.
+Dessas duas notas é tirada a média do candidato. Caso essa média seja maior ou igual a 7.0,
+ele estará apto a fazer a segunda etapa do concurso.
+Na segunda etapa, ele fará mais uma prova, onde deverá obter uma nota maior ou igual a 8.0
+para ser aprovado no concurso. 
+Escreva um programa que leia as notas da primeira etapa, calcule a média da primeira etapa, 
+e se o candidato for aprovado na primeira etapa, leia a nota dele na segunda etapa e diga se 
+ele foi aprovado ou não no concurso.
+
+n1=float(input('Olá candidato(a) informe sua primeira nota: '))
+n2=float(input('Informe sua segunda nota: '))
+media=(n1+n2)/2
+if media>=7.0:
+    print('Você está apto para participar da segunda etapa. ')
+else:
+    print('Você não está apto a participar da segunda etapa do concurso. ')
+seg=float(input('Informe sua nota na segunda etapa: '))
+if seg>=8.0:
+    print('Você foi aprovado no concurso. ')
+
+--
+
+
+15.Escreva um programa que leia a hora de início de um jogo e a hora do final do jogo
+(considerando apenas horas inteiras), calcula a duração do jogo em horas, 
+sabendo-se que o tempo máximo de duração do jogo é de 24 horas e que o jogo pode iniciar 
+em um dia e terminar no dia seguinte. O programa deve mostrar o resultado obtido.
+
+
+16.Escreva  um programa que  solicite  a  digitação  de  um  ano  e  imprima  sua  classificação
+comobissexto ou não bissexto. Obs: um ano é bissexto se for divisível por 4, mas não por 100. 
+Um ano também é bissextose for divisível por 400. 
+
+17.Escreva um programa para calcular a conta final de um hóspede de um hotel, considerando que:
+	
+a)Serão lidos o nome do hóspede, o tipo do apartamento utilizado (A, B, C ou D),
+o número de diárias utilizadas pelo hóspede e o valor do consumo interno do hóspede;
+
+b)O valor da diária é determinado pela seguinte tabela:
+	
+	 TIPO DO APTO   		VALOR DA DIÁRIA
+		A			R$150,00
+		B			R$100,00
+		C			R$75,00
+		D			R$50,00
+		
+	
+c)O valor total das diárias é calculado pela multiplicação do número de diárias utilizadas pelo valor
+da diária;
+
+d)O subtotal é calculado pela soma do valor total das diárias e o valor do consumo interno;
+
+e)O valor da taxa deserviço equivale a 10% do subtotal;
+
+f)O total geral resulta da soma do subtotal com a taxa de serviço. 
+
+O programa deverá mostrar a conta final do hóspede, contendo: o nome do hóspede,
+o tipo do apartamento, o número de diárias utilizadas, o valor unitário da diária,
+o valor total das diárias, o valor do consumo interno, o subtotal, o valor da taxa de 
+serviço e o total geral.
+
+
 
 
 	
