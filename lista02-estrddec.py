@@ -1,9 +1,9 @@
 1.Escreva um programa que leia um número inteiro e determine se ele é par ou ímpar
 
 n1=int(input('informe um numero: '))
-valor=n1%2
+x=n1%2
 
-if valor==0:
+if x==0:
     print('O número é par')
 else:
     print('O número é impar')
@@ -119,8 +119,12 @@ if c=='@' or c== '!' or c== '$' or c=='#' or c== '%' or c== '=' or c== '&' or c=
     print('Caractere especial ')
 elif c=='a' or c=='e' or c=='i' or c=='o' or c=='u':
     print('Vogal')
-elif for i in range(10, -1, -1):
-    print('numero')
+elif c=='b' or c=='c' or c=='d' or c=='f' or c=='g' or c=='h' or c=='j' or c=='k' or c=='l' or c=='m' or c=='n' or c=='p' or c=='q' or c=='r' or c=='s' or c=='t' or c=='v' or c=='x' or c=='y' or c=='z' or c=='w' :
+    print('Consoante')
+else:
+    print('Número')
+tr
+
 
 
 --
@@ -173,16 +177,20 @@ e calcule o valor do créditode acordo com a tabela abaixo.
 		acima de 1.000 até 2.500 - 30% do valor do saldo médio 
 		acima de 2.500 		40% do valor do saldo médio
 	
-nome=input('Digite seu nome: ')
-saldo=int(input('Digite seu saldo médio: '))
-if saldo>=0 and saldo<=500:
-    print('Olá,',nome, 'nenhum saldo')
+nome=input('Informe seu nome: ')
+saldo=int(input('Informe seu saldo: '))
+if saldo >=0 and saldo<=500:
+    print('Nenhum saldo. ')
 elif saldo >=500 and saldo<=1000:
-    print(f'Olá {nome} seu saldo é de {saldo*2.0*2}')
-elif saldo>=1000 and saldo <=2500:
-    print('Olá',nome, 'seu saldo é de',saldo*0.3)
-else:
-    print('Olá',nome,' seu saldo é de' ,saldo*0.4)
+    x=saldo*0.2
+    print(f'Olá {nome}, seu saldo é de {saldo} e seu valor de crédito é de {x} ')
+elif saldo >=1000 and saldo<=2500:
+    x=saldo*0.3
+    print(f'Olá {nome}, seu saldo é de {saldo} e seu valor de crédito é de {x} ')
+if saldo>=2500:
+    x=saldo*0.4
+    print(f'Olá {nome}, seu saldo é de {saldo} e seu valor de crédito é de {x} ')
+    
 
 
 --
@@ -255,6 +263,14 @@ em um dia e terminar no dia seguinte. O programa deve mostrar o resultado obtido
 como bissexto ou não bissexto. Obs: um ano é bissexto se for divisível por 4, mas não por 100. 
 Um ano também é bissexto se for divisível por 400. 
 
+ano=int(input('Informe um ano: '))
+if ano%100  !=0 and ano%4 ==0:
+    print('Ano bissexto.')
+else:
+    print('O ano não é bissexto')
+    
+--
+
 17.Escreva um programa para calcular a conta final de um hóspede de um hotel, considerando que:
 	
 a)Serão lidos o nome do hóspede, o tipo do apartamento utilizado (A, B, C ou D),
@@ -283,6 +299,34 @@ o tipo do apartamento, o número de diárias utilizadas, o valor unitário da di
 o valor total das diárias, o valor do consumo interno, o subtotal, o valor da taxa de 
 serviço e o total geral.
 
+nomeh=input('Olá, qual seu nome? ')
+tipo=input('Qual tipo de apto você usou? [A, B, C ou D] ')
+nd=int(input('Quantas diárias você utilizou? '))
+valorc=float(input('Qual foi seu consumo interno? '))
+if tipo=='A':
+    x=150.00
+    y=nd*x
+    sub=(y+valorc//100)*0.1
+    print(f'Olá {nomeh} seu tipo de apartamento foi A, você utilizou {nd} diárias, o valor da sua diária foi de 150.00, e o custo total das duas diarias foi de {y} seu consumo interno foi de {valorc} o seu subtotal foi de {y+valorc} o valor da sua taxa de serviço foi de {sub} e o TOTAL da sua conta foi de {sub+y} ')
+	
+if tipo=='B':
+    x=100.00
+    y=nd*x
+    sub=(y+valorc//100)*0.1
+    print(f'Olá {nomeh} seu tipo de apartamento foi A, você utilizou {nd} diárias, o valor da sua diária foi de 150.00, e o custo total das duas diarias foi de {y} seu consumo interno foi de {valorc} o seu subtotal foi de {y+valorc} o valor da sua taxa de serviço foi de {sub} e o TOTAL da sua conta foi de {sub+y} ')
+	
+if tipo=='C':
+    x=75.00
+    y=nd*x
+    sub=(y+valorc//100)*0.1
+    print(f'Olá {nomeh} seu tipo de apartamento foi A, você utilizou {nd} diárias, o valor da sua diária foi de 150.00, e o custo total das duas diarias foi de {y} seu consumo interno foi de {valorc} o seu subtotal foi de {y+valorc} o valor da sua taxa de serviço foi de {sub} e o TOTAL da sua conta foi de {sub+y} ')
+	
+if tipo=='D':
+    x=50.00
+    y=nd*x
+    sub=(y+valorc//100)*0.1
+    print(f'Olá {nomeh} seu tipo de apartamento foi A, você utilizou {nd} diárias, o valor da sua diária foi de 150.00, e o custo total das duas diarias foi de {y} seu consumo interno foi de {valorc} o seu subtotal foi de {y+valorc} o valor da sua taxa de serviço foi de {sub} e o TOTAL da sua conta foi de {sub+y} ')
+    
 
 
 
