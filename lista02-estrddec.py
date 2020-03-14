@@ -234,11 +234,13 @@ n2=float(input('Informe sua segunda nota: '))
 media=(n1+n2)/2
 if media>=7.0:
     print('Você está apto para participar da segunda etapa. ')
-else:
+if media<7.0:
     print('Você não está apto a participar da segunda etapa do concurso. ')
-seg=float(input('Informe sua nota na segunda etapa: '))
-if seg>=8.0:
-    print('Você foi aprovado no concurso. ')
+else:
+    seg=float(input('Informe sua nota na segunda etapa: '))
+    if seg>=8.0:
+        print('Você foi aprovado no concurso. ')
+
 
 --
 
@@ -250,8 +252,8 @@ em um dia e terminar no dia seguinte. O programa deve mostrar o resultado obtido
 
 
 16.Escreva  um programa que  solicite  a  digitação  de  um  ano  e  imprima  sua  classificação
-comobissexto ou não bissexto. Obs: um ano é bissexto se for divisível por 4, mas não por 100. 
-Um ano também é bissextose for divisível por 400. 
+como bissexto ou não bissexto. Obs: um ano é bissexto se for divisível por 4, mas não por 100. 
+Um ano também é bissexto se for divisível por 400. 
 
 17.Escreva um programa para calcular a conta final de um hóspede de um hotel, considerando que:
 	
