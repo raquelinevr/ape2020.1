@@ -7,7 +7,7 @@ print('Bem-vindo ao mundo da programação')
 2.Escreva um programa que leia um número inteiro e exiba o dobro do mesmo.
 
 n1=int(input('Digite um valor: '))
-print('O dobro do numeros digitado é: ',n1*2)
+print('O dobro do numeros digitado é: 'n1*2)
 
 --
 
