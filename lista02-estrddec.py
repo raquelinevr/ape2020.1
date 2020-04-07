@@ -8,6 +8,7 @@ if x==0:
 else:
     print('O número é impar')
 
+
 --
 
 2.Escreva um programa que leia dois números e exiba-os em ordem crescente.
