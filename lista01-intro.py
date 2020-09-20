@@ -209,3 +209,87 @@ notas1=resto//1
 resto=resto%1
 print(f'As notas de 200 são: {notas200}\n as notas de 100 são {notas100}\n as notas de 50 são: {notas50}\n as notas de 20 são {notas20}\n as notas de 10 são {notas10}\n as notas de 5 são {notas5}\n as notas de 2 são {notas2} e as notas de 1 são: {notas1} ')
 
+
+#####
+
+print('Bem vindo ao jogo pedra, papel e tesoura. ')
+p1=input('Jogador um: Escolha uma das 3 açoes: [pedra,papel ou tesoura]: ')
+p2=input('Jogador dois: Qual sua ação: ')
+
+    if p1=='pedra' and p2=='papel':
+        print('Jogador dois ganhou, pois o papel amassa a pedra.')
+    if p1=='papel' and p2=='pedra':
+        print('Jogador um ganhou, pois papel amassa pedra. ')
+    if p1=='tesoura' and p2=='papel':
+        print('Jogador um ganhou, pois tesoura corta papel. ')
+    if p1=='papel' and p2=='tesoura':
+        print('Jogador dois ganhou, tesoura corta papel. ')
+    if p1=='pedra' and p2=='tesoura':
+        print('Jogador um ganhou, pois pedra quebra a tesoura. ')
+    if p1=='tesoura' and p2=='pedra':
+        print('Jogador dois ganhou, pedra quebra tesoura')
+    if p1=='tesoura' and p2=='papel':
+        print('Jogador um ganhou pois tesoura corta papel. ')
+    if p1=='papel' and p2=='tesoura':
+        print('Jogador dois ganhou, tesoura corta papel. ') 
+        
+  #######
+  
+  atv=input('Olá, digite uma opção abaixo para continuarmos:\n 1- Colocar um alarme\n2-Marcar uma reuniao\n3-Lembrar-me de ir a academia\n4-Lembre-me de estudar\n5-Lembre-me de ir as compras\n')
+if atv=='1':
+    print('Que horas você deseja adicionar o alarme?')
+    hora=str(input('Digite a hora: '))
+    print('Alarme definido para',hora)
+if atv=='2':
+    print('Qual dia da semana e horas a reunião será marcada?')
+    dia=input('Informe o dia: ')
+    hora=str(input('Informe a hora: '))
+    print('Reunião marcada para',dia, 'e',hora, 'hora')
+if atv=='3':
+    print('Dia e hora que você deseja ser lembrado: ')
+    dh=str(input('Informe o dia seguido da hora: '))
+    print('Ok',dh,' você será notificado(a) ')
+if atv=='4':
+    dhe=str(input('Informe o dia e a hora que você quer estudar: '))
+    print('Ok :)',dhe, 'você será lembrado. ')
+if atv=='5':
+    print('Qual dia e horário você deseja ir as compras? ')
+    diac=input('Informe o dia: ')
+    horac=str(input('Informe a hora: '))
+    print('Ok, notificação definida para ',diac, 'ás' ,horac, 'horas')
+    
+    
+    
+    ---------------
+    - Outro exemplo ↓
+    ---------------
+    
+    
+    while True:
+    atv=input('Olá, digite uma opção abaixo para continuarmos:\n1- Colocar um alarme\n2-Marcar uma reuniao\n3-Lembrar-me de ir a academia\n4-Lembre-me de estudar\n5-Lembre-me de ir as compras\n0-Encerra o programa\n')
+    if atv=='0':
+        print('Ok, programa encerrado.')    
+        break
+    else:
+        if atv=='1':
+            print('Que horas você deseja adicionar o alarme?')
+            hora=str(input('Digite a hora: '))
+            print('Alarme definido para',hora,' horas\n')
+        if atv=='2':
+            print('Qual dia da semana e horas a reunião será marcada?')
+            dia=input('Informe o dia: ')
+            hora=str(input('Informe a hora: '))
+            print('Reunião marcada para',dia, 'e',hora, 'horas\n')
+        if atv=='3':
+            print('Dia e hora que você deseja ser lembrado: ')
+            dh=str(input('Informe o dia seguido da hora: '))
+            print('Ok',dh,' você será notificado(a)\n ')
+        if atv=='4':
+            dhe=str(input('Informe o dia e a hora que você quer estudar: '))
+            print('Ok :)',dhe, 'você será lembrado.\n ')
+        if atv=='5':
+            print('Qual dia e horário você deseja ir as compras? ')
+            diac=input('Informe o dia: ')
+            horac=str(input('Informe a hora: '))
+            print('Ok, notificação definida para ',diac, 'ás' ,horac, 'horas\n')
+
