@@ -5,9 +5,11 @@ em Celsius.
  C= 5 
    --- (F-32)
     9 
-    
-    
-    
+   
+temperatura=float(input('Informe a temperatura em Fahrenheit: '))
+cel=(temperatura - 32) * 5/9
+print('O valor da temperatura Fahrenheit em Celsius foi: ',cel, '°C')
+  
     
 QUESTÃO 2:
 [URI – 1012 (Adaptada)] Área.
@@ -26,7 +28,15 @@ d) a área do quadrado que tem lado B.
 
 e) a área do retângulo que tem lados A e B.
 
+a=float(input('Valor do lado A: '))
+b=float(input('Valor do lado B: '))
+c=float(input('Valor do lado C: '))
 
+print('A area do triângulo que tem A por base e C por altura: ',a*c/2)
+print('A área do círculo de raio C: ',2*314159*c)
+print('A área do trapézio que tem A e B por bases e C por altura: ',(a+b)/2*c) 
+print('A área do quadrado que tem lado B: ',b*b)
+print('A área do retângulo que tem lados A e B: ',a*b)
 
 
 QUESTÃO 3:
@@ -36,7 +46,10 @@ Escrever um programa que leia o nome
 e o salário atual de um empregado, e exiba o nome,
 o salário atual e o salário reajustado.
 
-
+nome=input('Seu nome: ')
+salario=float(input('Seu salário: '))
+sr=salario+(salario*20/100)
+print('Olá',nome,'seu salario foi R$',salario,' e com um ajuste de 20% seu salario ficou R$',sr)
 
 
 QUESTÃO 4:
@@ -51,5 +64,17 @@ Refrigerante R$ 5,00
 Misto Quente R$ 3,50
 Sorvete R$ 3,00
 
+
+c=int(input('Quantos chocolates você consumiu? '))
+r=int(input('Quantos refrigerantes você consumiu? '))
+m=int(input('Quantos mistos quentes você consumiu? '))
+s=int(input('Quantos sorvetes você consumiu? '))
+total=c*4+r*5+m*3.5+s*3
+
+print('Voce consumiu',c, 'chocolate(s) e o preço total foi: R$',c*4)
+print('Voce consumiu',r, 'refrigerante(s) e o preço total foi: R$',r*5)
+print('Voce consumiu',m, 'misto(s) quente(s) e o preço total foi: R$',m*3.5)
+print('Voce consumiu',s, 'sorvete(s) e o preço total foi: R$',s*3)
+print('E o seu valor total foi de: R$:',total)
 
 
