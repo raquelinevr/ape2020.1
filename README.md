@@ -1,6 +1,5 @@
-# ape2020.1
-Listas de 2020.1
+Algoritmo e Programação Estruturada
 
-. Introdução a Python 
+Introdução a Python 
+Estrutura de Decisão
 
-. Estrutura de Decisão
