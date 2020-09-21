@@ -1,3 +1,4 @@
+# AVALIAÇÃO 2:
 QUESTÃO 1:
 Escreva um programa para ler uma temperatura
 dada na escala Fahrenheit e exibir o equivalente
@@ -58,12 +59,10 @@ respectivos preços abaixo, escreva um programa
 para ler as quantidades consumidas de cada produto
 por um cliente, calcular e exibir o preço total
 consumido.
-
 Chocolate R$ 4,00
 Refrigerante R$ 5,00
 Misto Quente R$ 3,50
 Sorvete R$ 3,00
-
 
 c=int(input('Quantos chocolates você consumiu? '))
 r=int(input('Quantos refrigerantes você consumiu? '))
@@ -77,4 +76,44 @@ print('Voce consumiu',m, 'misto(s) quente(s) e o preço total foi: R$',m*3.5)
 print('Voce consumiu',s, 'sorvete(s) e o preço total foi: R$',s*3)
 print('E o seu valor total foi de: R$:',total)
 
+
+# AVALIAÇÃO 3
+
+QUESTÃO 1:
+Faça um programa que leia a altura e o sexo (M-masculino, F-feminino) de uma pessoa, calcule e mostre o seu peso ideal, utilizando uma das seguintes fórmulas:
+
+para homens: (72.7 * altura) - 58.0
+para mulheres: (62.1 * altura) - 44.7
+ 
+ 
+ 
+QUESTÃO 2:
+Recomendam-se estudantes para bolsas de estudo em função de seu desempenho.
+A natureza das recomendações é baseada na seguinte tabela:
+ A - FORTEMENTE RECOMENDADO
+ B OU C - RECOMENDADO 
+ D - NÃO RECOMENDADO 
+Faça um programa que leia o nome e o conceito de um estudante e exiba o nome do estudante e sua respectiva recomendação.
+
+QUESTÃO 3:
+Uma determinada loja está oferecendo um desconto para os seus clientes, de acordo com o valor total de sua compra. O valor do desconto é determinado pela tabela abaixo:
+ VALOR DA COMPRA  --- VALOR DESCONTO
+   0 - 49,90          NENHUM DESCONTO
+   50 - 99,99             R$ 5,00
+   100 +                  R$ 20,00
+Faça um programa que:
+
+leia o valor da compra de um cliente;
+calcule e mostre o valor do seu desconto;
+calcule e mostre o valor final a pagar (valor da compra - desconto).
+
+QUESTÃO 4:
+Numa fábrica trabalham homens e mulheres divididos em duas classes:
+
+Classe A: os que fazem até 30 peças por mês;
+Classe B: os que fazem mais de 30 peças por mês.
+A classe A recebe um salário-mínimo.
+A classe B recebe um salário-mínimo e mais R$ 10,00 por cada peça acima das 30 iniciais.
+Escreva um programa que leia a matrícula do operário e o número de peças fabricadas por ele no mês.
+Como resposta mostre a matrícula do operário, sua classe e o salário que ele deve receber.
 
