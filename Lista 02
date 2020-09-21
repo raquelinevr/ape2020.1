@@ -126,8 +126,6 @@ elif c=='b' or c=='c' or c=='d' or c=='f' or c=='g' or c=='h' or c=='j' or c=='k
     print('Consoante')
 else:
     print('Número')
-tr
-
 
 
 --
