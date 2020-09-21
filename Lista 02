@@ -1,3 +1,5 @@
+ESTRUTURA DE DECISÃO
+
 1.Escreva um programa que leia um número inteiro e determine se ele é par ou ímpar
 
 n1=int(input('informe um numero: '))
