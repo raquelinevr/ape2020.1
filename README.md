@@ -1,5 +1,7 @@
 #Algoritmo e Programação Estruturada
 
-Introdução a Python 
+Avaliações - Atividades em EAD
 
-Estrutura de Decisão 
+01 - Introdução a Python 
+
+02 - Estrutura de Decisão 
