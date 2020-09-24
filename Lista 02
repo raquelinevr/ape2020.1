@@ -59,6 +59,15 @@ de vendas daquele vendedor, mas essa comissão nunca deve ser inferior ao salár
 Escreva um algoritmo que leia o valor total das vendas de um vendedor e escreva seu salário. 
 
 
+tv=float(input('Informe o valor das suas vendas: '))
+s=1.045
+com=5/100
+salario=tv*com
+if salario<s:
+    salario=s
+print(f'Salario: {s}')
+
+
 6.Escreva um programa para  determinar  as  raízes  de  uma  equação  de  segundo  grau,  dados  os 
 seus coeficientes.
 Fórmulas: 
