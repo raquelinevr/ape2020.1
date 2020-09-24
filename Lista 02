@@ -82,10 +82,7 @@ elif op=='*':
 elif op=='/':
 	print(n1//n2)
 elif op=='%':
-	x=n1/100
-	z=x*n2
-	y=z
-	print(y)
+	print(n1 % n2)
 else: 
     print('Operador desconhecido')
     
