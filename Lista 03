@@ -1,13 +1,35 @@
-ESTRUTURA DE DECISÃO
+ESTRUTURA DE DECISÃO (FOR)
 
-1. Escreva um programa que gere e mostre a sequência 100, 90, 80, 70, ..., 0.
+1. Faça um programa que calcule e mostre os números múltiplos de 5 do
+intervalo 50 a 300, juntamente com suas raízes e seus cubos.
 
-for i in range(100, -1, -10):
-    print(i)
+2. Faça um programa que leia um número N, inteiro, e some todos os números
+de 1 até N, mostrando o resultado.
 
-2. Escreva um programa que gere e mostre os números múltiplos de 5 entre 1 e 50.
+3. Faça um programa que calcule e mostre o fatorial de um número N, fornecido
+pelo usuário. A definição de fatorial é mostrada a seguir:
+N!= 1 X 2 X 3 X... X N -1 X N 
+0 != 1
 
-3. Escreva um programa que leia um número N, inteiro, e some todos os números de 1 até N, mostrando o resultado.
+
+4. Faça um programa que leia 20 números inteiros, determine e mostre o maior
+deles.
+
+5. Faça um programa que, para um grupo de N pessoas (obs: N será lido):
+ Leia o sexo (M ou F) de cada pessoa;
+ Calcule e escreva o percentual de homens;
+ Calcule e escreva o percentual de mulheres.
+
+6. Faça um programa que leia 3 números inteiros (N, X, Y) e mostre todos os
+números múltiplos de N entre X e Y.
+
+7. Um número é, por definição, primo se ele não tem divisores, exceto 1 e ele
+próprio. Faça um programa que leia um número e determine se ele é ou não
+primo.
+
+8. Faça um programa que leia um número inteiro N, calcule e mostre o maior
+quadrado perfeito menor ou igual a N. Por exemplo, se N for igual a 38, o
+resultado é 36.
 
 
 
