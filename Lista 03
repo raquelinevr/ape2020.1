@@ -3,8 +3,16 @@ ESTRUTURA DE DECISÃO (FOR)
 1. Faça um programa que calcule e mostre os números múltiplos de 5 do
 intervalo 50 a 300, juntamente com suas raízes e seus cubos.
 
+
 2. Faça um programa que leia um número N, inteiro, e some todos os números
 de 1 até N, mostrando o resultado.
+
+n=int(input('Informe um numero: '))
+soma=0
+for i in range(n):
+    soma=soma + (i+1)
+print('A soma de todos os numeros de 1 até' ,n, 'é' ,soma)
+
 
 3. Faça um programa que calcule e mostre o fatorial de um número N, fornecido
 pelo usuário. A definição de fatorial é mostrada a seguir:
