@@ -27,3 +27,40 @@ repetir tudo de novo, caso contrário o programa deve ser encerrado.
 6. Chico tem 1,50 metros e cresce 2 centímetros por ano, enquanto Zé tem 1,10
 metros e cresce 3 centímetros por ano. Faça um programa que calcule e
 imprima quantos anos serão necessários para que Zé seja maior que Chico.
+
+7. O cardápio de uma casa de lanches, especializada em sanduíches, é dado a
+seguir.
+CÓDIGO NOME PREÇO
+H Hamburger R$ 5,00
+C Cheese Burger R$ 6,00
+B Cheese Bacon R$ 7,00
+F Cheese Frango R$ 4,00
+
+Faça um programa que leia o código e a quantidade de cada item comprado
+por um cliente (a leitura do código “X” indica o fim dos dados de entrada). Ao
+final, calcule e exiba o total a pagar.
+Veja o exemplo abaixo, considerando que o cliente pediu 3 Hamburger e 2
+Cheese Bacon:
+Entrada:
+Código: H
+Quantidade: 3
+Código: B
+Quantidade: 2
+Código: X
+Saída:
+Total a pagar: R$ 29.00
+
+8. Faça um programa que apresente o menu de opções abaixo:
+OPÇÕES:
+1 - SAUDAÇÃO
+2 - BRONCA
+3 - FELICITAÇÃO
+0 - FIM
+O programa deve ler a opção do usuário e exibir, para cada opção, a respectiva
+mensagem:
+1 - Olá. Como vai?
+2 - Vamos estudar mais.
+3 - Meus Parabéns!
+0 - Fim de serviço.
+Enquanto a opção for diferente de 0 (zero) deve-se continuar apresentando o
+menu de opções.
