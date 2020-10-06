@@ -7,3 +7,5 @@ Avaliações - Atividades em EAD
 02 - Estrutura de Decisão 
 
 03 - Estrutura de Repetição (FOR)
+
+04 - Estrutura de Repetição (WHILE)
