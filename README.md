@@ -1,4 +1,4 @@
-#Algoritmo e Programação Estruturada
+#Algoritmos e Programação Estruturada
 
 Avaliações - Atividades em EAD
 
