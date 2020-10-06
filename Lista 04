@@ -34,11 +34,26 @@ while True:
         else:
             print(f'Olá {nome}, matrícula {mat} sua média foi {media} e você está reprovado!! ')
 
+--
 
 5. Faça um programa que leia um número inteiro e determine se ele é par ou
 ímpar. Ao final, o programa deve perguntar se o usuário deseja continuar
 (digitar outro número) ou sair. Se o usuário quiser continuar, o programa deve
 repetir tudo de novo, caso contrário o programa deve ser encerrado.
+
+while True:
+    n=int(input('Informe um numero: '))
+    if (n%2)==0:
+        print(f'{n} é par')
+    else:
+        print(f'{n} é ímpar')
+    op=int(input('Deseja continuar ou sair?\n1-Continuar\n2-Sair\nOpção:  '))
+    if op==2:
+        print('Usuário desejou parar. Programa encerrado. ')
+        break
+
+--
+
 
 6. Chico tem 1,50 metros e cresce 2 centímetros por ano, enquanto Zé tem 1,10
 metros e cresce 3 centímetros por ano. Faça um programa que calcule e
