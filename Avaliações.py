@@ -153,8 +153,8 @@ b=np-30
 x=salario+b*10
 
 if np <=30:
-    print('Olá',matriculaop, 'sua classe foi A e seu salario foi: R$1.045')
-elif np >=30:
+    print('Olá',matriculaop, 'sua classe foi A e seu salario foi:',salario)
+else:
     print('Olá',matriculaop, 'sua classe foi B e seu salario foi: R$',x)
 
 
