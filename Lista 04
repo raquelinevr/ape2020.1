@@ -19,6 +19,22 @@ programa deverá mostrar, para cada aluno, as seguintes informações:
 matrícula, nome, média e situação (aprovado, se a média for igual ou superior
 a 7 e, reprovado, se a média for inferior a 7).
 
+while True:
+    nome=input('Informe seu nome: ')
+    mat=int(input('Informe sua matricula: '))
+    if mat==0:
+        print('Fim de programa. ')
+        break
+    else:
+        av1=float(input('Informe a nota da sua primeira avaliação: '))
+        av2=float(input('Informe a nota da segunda avaliação: '))
+        media=(av1+av2)/2
+        if media>=7:
+            print(f'Olá {nome}, matrícula {mat} sua média foi {media} e você está aprovado!! ')
+        else:
+            print(f'Olá {nome}, matrícula {mat} sua média foi {media} e você está reprovado!! ')
+
+
 5. Faça um programa que leia um número inteiro e determine se ele é par ou
 ímpar. Ao final, o programa deve perguntar se o usuário deseja continuar
 (digitar outro número) ou sair. Se o usuário quiser continuar, o programa deve
