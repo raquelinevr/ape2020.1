@@ -158,5 +158,30 @@ else:
     print('Olá',matriculaop, 'sua classe foi B e seu salario foi: R$',x)
 
 
+# AVALIAÇÃO 4
 
+QUESTÃO 1:
+Em uma pesquisa foram coletados os seguintes dados de um conjunto de 100 pessoas: sexo (M-masculino ou F-feminino), idade e estado civil (S-solteiro, C-casado, V-viúvo ou D-divorciado).
+Neste contexto, faça um programa que leia os dados coletados durante a pesquisa, determine e mostre:
+a) O percentual de mulheres;
+b) O percentual de homens;
+c) A média de idade das pessoas;
+d) A quantidade de mulheres solteiras com idade inferior a 20 anos;
+e) A quantidade de homens casados com idade superior a 30 anos.
+
+
+
+QUESTÃO 2:
+Faça um programa para ler o nome e o salário bruto dos 80 funcionários de uma determinada empresa.
+Para cada funcionário lido, o programa deverá emitir o respectivo contracheque, que deverá conter:
+
+O nome do funcionário;
+O valor do salário bruto;
+O valor do desconto do INSS (12% do Salário Bruto)
+O valor do salário líquido (Salário Bruto - Desconto INSS)
+Ao final, o programa deverá mostrar:
+
+A soma total dos salários brutos;
+A soma total dos descontos do INSS;
+A soma total dos salários líquidos.
 
