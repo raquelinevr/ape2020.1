@@ -11,9 +11,9 @@ if sexo==1:
     print('Seu peso ideal é de: ',pf)
 elif sexo==2:
     print('Seu peso ideal é de: ',pm)
-    
  
-QUESTÃO 2:
+
+QUESTÃO 2: 
 Recomendam-se estudantes para bolsas de estudo em função de seu desempenho.
 A natureza das recomendações é baseada na seguinte tabela:
  A - FORTEMENTE RECOMENDADO
