@@ -38,11 +38,8 @@ print('A área do retângulo que tem lados A e B: ',a*b)
 
 
 QUESTÃO 3:
-Uma certa empresa deseja aumentar o salário
-de seus empregados em 20%.
-Escrever um programa que leia o nome
-e o salário atual de um empregado, e exiba o nome,
-o salário atual e o salário reajustado.
+Uma certa empresa deseja aumentar o salário de seus empregados em 20%.
+Escrever um programa que leia o nome e o salário atual de um empregado, e exiba o nome, o salário atual e o salário reajustado.
 
 nome=input('Seu nome: ')
 salario=float(input('Seu salário: '))
@@ -51,11 +48,8 @@ print('Olá',nome,'seu salario foi R$',salario,' e com um ajuste de 20% seu sala
 
 
 QUESTÃO 4:
-Considerando a lista de produtos e seus
-respectivos preços abaixo, escreva um programa
-para ler as quantidades consumidas de cada produto
-por um cliente, calcular e exibir o preço total
-consumido.
+Considerando a lista de produtos e seus respectivos preços abaixo, escreva um programa para ler as quantidades consumidas de cada produto
+por um cliente, calcular e exibir o preço total consumido.
 
 Chocolate R$ 4,00
 Refrigerante R$ 5,00
