@@ -64,7 +64,6 @@ A classe B recebe um salário-mínimo e mais R$ 10,00 por cada peça acima das 3
 Escreva um programa que leia a matrícula do operário e o número de peças fabricadas por ele no mês.
 Como resposta mostre a matrícula do operário, sua classe e o salário que ele deve receber.
 
-
 matriculaop=int(input('Informe sua matricula: '))
 np=int(input('Informe o numero de peças que você fabricou esse mês: '))
 salario=1045
