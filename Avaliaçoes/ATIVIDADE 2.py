@@ -8,6 +8,11 @@ em Celsius.
    --- (F-32)
     9 
     
+temperatura=float(input('Informe a temperatura em Fahrenheit: '))
+cel=(temperatura - 32) * 5/9
+print('O valor da temperatura Fahrenheit em Celsius foi: ',cel, '°C')
+
+    
 QUESTÃO 2:
 [URI – 1012 (Adaptada)] Área.
 Escreva um programa que leia três
@@ -16,14 +21,21 @@ Em seguida, calcule e mostre:
 
 a) a área do triângulo retângulo que tem A por base e C por
 altura.
-
 b) a área do círculo de raio C. (pi = 3.14159)
-
 c) a área do trapézio que tem A e B por bases e C por altura.
-
 d) a área do quadrado que tem lado B.
-
 e) a área do retângulo que tem lados A e B.
+
+a=float(input('Valor do lado A: '))
+b=float(input('Valor do lado B: '))
+c=float(input('Valor do lado C: '))
+
+print('A area do triângulo que tem A por base e C por altura: ',a*c/2)
+print('A área do círculo de raio C: ',2*314159*c)
+print('A área do trapézio que tem A e B por bases e C por altura: ',(a+b)/2*c) 
+print('A área do quadrado que tem lado B: ',b*b)
+print('A área do retângulo que tem lados A e B: ',a*b)
+
 
 QUESTÃO 3:
 Uma certa empresa deseja aumentar o salário
@@ -31,6 +43,12 @@ de seus empregados em 20%.
 Escrever um programa que leia o nome
 e o salário atual de um empregado, e exiba o nome,
 o salário atual e o salário reajustado.
+
+nome=input('Seu nome: ')
+salario=float(input('Seu salário: '))
+sr=salario+(salario*20/100)
+print('Olá',nome,'seu salario foi R$',salario,' e com um ajuste de 20% seu salario ficou R$',sr)
+
 
 QUESTÃO 4:
 Considerando a lista de produtos e seus
@@ -44,33 +62,6 @@ Refrigerante R$ 5,00
 Misto Quente R$ 3,50
 Sorvete R$ 3,00
 
-
-
-RESPOSTAS:
-
-1) 
-temperatura=float(input('Informe a temperatura em Fahrenheit: '))
-cel=(temperatura - 32) * 5/9
-print('O valor da temperatura Fahrenheit em Celsius foi: ',cel, '°C')
-
-2) 
-a=float(input('Valor do lado A: '))
-b=float(input('Valor do lado B: '))
-c=float(input('Valor do lado C: '))
-
-print('A area do triângulo que tem A por base e C por altura: ',a*c/2)
-print('A área do círculo de raio C: ',2*314159*c)
-print('A área do trapézio que tem A e B por bases e C por altura: ',(a+b)/2*c) 
-print('A área do quadrado que tem lado B: ',b*b)
-print('A área do retângulo que tem lados A e B: ',a*b)
-
-3)
-nome=input('Seu nome: ')
-salario=float(input('Seu salário: '))
-sr=salario+(salario*20/100)
-print('Olá',nome,'seu salario foi R$',salario,' e com um ajuste de 20% seu salario ficou R$',sr)
-
-4)
 c=int(input('Quantos chocolates você consumiu? '))
 r=int(input('Quantos refrigerantes você consumiu? '))
 m=int(input('Quantos mistos quentes você consumiu? '))
