@@ -3,10 +3,10 @@ nome e as três notas do aluno (a leitura do nome FIM indica o fim dos dados de
 entrada), mostre o nome, a média final e o conceito, sabendo-se que:
  A média final é calculada pela média aritmética das 3 notas;
  O conceito é determinado de com base na tabela abaixo:
-MÉDIA FINAL CONCEITO
- 7,0 A
- 4,0 e < 7,0 B
-< 4,0 C
+  MÉDIA FINAL          CONCEITO
+     7,0                  A
+     4,0 e < 7,0          B
+    < 4,0                  C
 Determine e mostre também:
  A quantidade de alunos com conceito A;
  A quantidade de alunos com conceito B;
@@ -42,7 +42,6 @@ while (nomeUpper != cond):
     nome=input('Informe seu nome: ')
     nomeUpper=nome.upper()
     
-
 print(f'Quantidade de alunos com o conceito A {a}' )
 print(f'Quantidade de alunos com o conceito B {b}' )
 print(f'Quantidade de alunos com o conceito B {c}' )
