@@ -1,6 +1,5 @@
 QUESTÃO 1:
-Faça um programa que, para cada um dos vários alunos de uma turma, leia o
-nome e as três notas do aluno (a leitura do nome FIM indica o fim dos dados de
+Faça um programa que, para cada um dos vários alunos de uma turma, leia o nome e as três notas do aluno (a leitura do nome FIM indica o fim dos dados de
 entrada), mostre o nome, a média final e o conceito, sabendo-se que:
  A média final é calculada pela média aritmética das 3 notas;
  O conceito é determinado de com base na tabela abaixo:
@@ -50,8 +49,7 @@ print(f'Quantidade de alunos: {total} ')
 
     
 QUESTÃO 2:
-Faça um programa que leia a idade de várias pessoas visitantes de um show (a
-leitura da idade 0 indicará o fim dos dados de entrada), calcule e exiba:
+Faça um programa que leia a idade de várias pessoas visitantes de um show (a leitura da idade 0 indicará o fim dos dados de entrada), calcule e exiba:
  A média de idade do público;
  A porcentagem de pessoas com idade entre 18 e 21 anos;
  Idade do visitante mais jovem.
