@@ -1,8 +1,5 @@
-1. Em uma pesquisa foram coletados os seguintes dados de um conjunto de 100
-
-pessoas: sexo (M-masculino ou F-feminino), idade e estado civil (S-solteiro, C-
-casado, V-viúvo ou D-divorciado).
-
+1. Em uma pesquisa foram coletados os seguintes dados de um conjunto de 100 pessoas: 
+sexo (M-masculino ou F-feminino), idade e estado civil (S-solteiro, C-casado, V-viúvo ou D-divorciado).
 Neste contexto, faça um programa que leia os dados coletados durante a
 pesquisa, determine e mostre:
 a) O percentual de mulheres;
@@ -89,11 +86,3 @@ print(f'======= TOTAL =======')
 print(f'Total dos salarios brutos: R$ {sb:.2f} ')
 print(f'Total dos descontos do INSS: R${sd:.2f} ')
 print(f'Total dos salários líquidos: R${sl:.2f} ') 
-
-
-
-
-
-
-
-
