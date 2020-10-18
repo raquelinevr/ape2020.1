@@ -1,4 +1,5 @@
-1. Em uma pesquisa foram coletados os seguintes dados de um conjunto de 100 pessoas: 
+QUESTÃO 1:
+Em uma pesquisa foram coletados os seguintes dados de um conjunto de 100 pessoas: 
 sexo (M-masculino ou F-feminino), idade e estado civil (S-solteiro, C-casado, V-viúvo ou D-divorciado).
 Neste contexto, faça um programa que leia os dados coletados durante a
 pesquisa, determine e mostre:
@@ -46,7 +47,8 @@ print(f'Mulheres solteiras com idade inferior a 20: {ms2} ')
 print(f'Homens casados com idade superior a 30: {hc3} ')
 
             
-2. Faça um programa para ler o nome e o salário bruto dos 80 funcionários de
+QUESTÃO 2:
+Faça um programa para ler o nome e o salário bruto dos 80 funcionários de
 uma determinada empresa.
 Para cada funcionário lido, o programa deverá emitir o respectivo
 contracheque, que deverá conter:
