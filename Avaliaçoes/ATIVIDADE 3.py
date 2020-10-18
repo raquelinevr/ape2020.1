@@ -1,6 +1,5 @@
 QUESTÃO 1:
 Faça um programa que leia a altura e o sexo (M-masculino, F-feminino) de uma pessoa, calcule e mostre o seu peso ideal, utilizando uma das seguintes fórmulas:
-
 para homens: (72.7 * altura) - 58.0
 para mulheres: (62.1 * altura) - 44.7
 
