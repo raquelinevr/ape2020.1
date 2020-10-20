@@ -46,7 +46,6 @@ participante mais velho (suponha que não haja empates);
  Calcule e exiba a média de idade dos participantes da festa;
  Calcule e exiba o total arrecadado com os ingressos da festa.
 
-
 soma=0
 cont=0
 m=0
