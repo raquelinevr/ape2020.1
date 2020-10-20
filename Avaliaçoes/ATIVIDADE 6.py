@@ -1,4 +1,4 @@
-C:\Users\Raqueline\AppData\Local\Programs\Python\Python37-32
+#C:\Users\Raqueline\AppData\Local\Programs\Python\Python37-32
 Utilizando quaisquer dos comandos, funções e operadores vistos até a Semana 6,
 faça programas Python para resolver as questões abaixo.
 
