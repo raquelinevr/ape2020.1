@@ -19,7 +19,6 @@ pelo usuário. A definição de fatorial é mostrada a seguir:
 N!= 1 X 2 X 3 X... X N -1 X N 
 0 != 1
 
-
 4. Faça um programa que leia 20 números inteiros, determine e mostre o maior
 deles.
 
