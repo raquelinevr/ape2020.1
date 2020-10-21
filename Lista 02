@@ -333,20 +333,3 @@ if tipo=='D':
     y=nd*x
     sub=(y+valorc//100)*0.1
     print(f'Olá {nomeh} seu tipo de apartamento foi A, você utilizou {nd} diárias, o valor da sua diária foi de 150.00, e o custo total das duas diarias foi de {y} seu consumo interno foi de {valorc} o seu subtotal foi de {y+valorc} o valor da sua taxa de serviço foi de {sub} e o TOTAL da sua conta foi de {sub+y} ')
-    
-
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
