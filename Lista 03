@@ -68,6 +68,17 @@ print('Pecentual de mulheres: ',percf,'%')
 6. Faça um programa que leia 3 números inteiros (N, X, Y) e mostre todos os
 números múltiplos de N entre X e Y.
 
+n=int(input('Informe o valor de N: '))
+x=int(input('Informe o valor de X: '))
+y=int(input('Informe o valor de Y: '))
+
+print('Os múltiplos de ',n, 'entre' ,x, 'e' ,y, 'são: ')
+
+for i in range(x,y+1):
+    if i % n ==0:
+        print(i)
+        
+        
 7. Um número é, por definição, primo se ele não tem divisores, exceto 1 e ele
 próprio. Faça um programa que leia um número e determine se ele é ou não
 primo.
