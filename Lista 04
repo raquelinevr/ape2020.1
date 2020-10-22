@@ -52,8 +52,6 @@ while True:
         print('Usuário desejou parar. Programa encerrado. ')
         break
 
---
-
 
 6. Chico tem 1,50 metros e cresce 2 centímetros por ano, enquanto Zé tem 1,10
 metros e cresce 3 centímetros por ano. Faça um programa que calcule e
@@ -81,6 +79,31 @@ Código: X
 Saída:
 Total a pagar: R$ 29.00
 
+flag='X'
+h = cb = cba = cf = 0
+print(' ==== CARDAPIO ==== ')
+print(' H - HAMBURGUER - RS 5.00 ')
+print(' C - CHESSE BURGUER - R$ 6.00 ')
+print(' B - CHEESE BACON - R$ 7.00 ')
+print(' F - CHEESE FRANGO - R$ 4.00 ')
+cod=input('Informe o cód do pedido: ').upper()
+while (cod!=flag):
+    qt=int(input('Informe a quantidade do produto escolhido '))
+    if cod=='H':
+        h = qt * 5.00
+    if cod =='C':
+        cb = qt *6.00
+    if cod == 'B':
+        cba = qt * 7.00
+    if cod == 'F':
+        cf = qt * 4.00
+
+    cod=input('Informe o cód do pedido: ').upper()
+
+total=h+cb+cba+cf
+print('Total a pagar: R$',total)
+    
+
 8. Faça um programa que apresente o menu de opções abaixo:
 OPÇÕES:
 1 - SAUDAÇÃO
@@ -95,3 +118,4 @@ mensagem:
 0 - Fim de serviço.
 Enquanto a opção for diferente de 0 (zero) deve-se continuar apresentando o
 menu de opções.
+
