@@ -4,10 +4,30 @@ LISTA DE EXERCÍCIOS: ESTRUTURAS DE REPETIÇÃO (COMPLEMENTAR)
 termos da sequência de Fibonacci (0, 1, 1, 2, 3, 5, 8, 13, ...). O valor lido para
 N sempre será maior ou igual a 2.
 
+n = int(input('Digite o número de termos desejado: '))
+a = 0
+b = 1
+print('Sequência de Fibonacci:',a,b,end=' ')
+for i in range (3,n+1):
+    c = a + b
+    print(c,end=' ')
+    a = b
+    b = c 
+
 
 2. Um número é, por definição, primo se ele não tem divisores, exceto 1 e ele
 próprio. Faça um programa que mostre todos os números primos de 1 a N
 (obs: N será lido).
+
+n = int(input('Digite o valor de N: '))
+  for i in range(1,n+1):
+    primo = True
+    for j in range(2,i):
+        if i % j == 0:
+            primo = False
+            break
+    if primo:
+        print(i,end=' ')
 
 
 3. O algoritmo de Euclides para determinar o MDC entre dois números inteiros
@@ -19,16 +39,52 @@ zero. Faça uma implementação deste programa.
 Ex: Dados os números 12 e 15, será formada a sequência: 12, 15, 12, 3, 0 e o
 MDC entre 12 e 15 é 3.
 
+a = int(input('Digite o 1º número: '))
+b = int(input('Digite o 2º número: '))
+print('\nSequência:',a,b,end=' ')
+while True:
+    c = a % b
+    print(c,end=' ')
+    if c == 0:
+        break
+    a = b
+    b = c
+print(f'\nMDC = {b}')
+
 
 4. Um dado material radioativo perde metade de sua massa a cada 50
 segundos. Faça um programa que leia uma certa quantidade de massa, em
 gramas, deste material e imprima o tempo necessário para que sua massa
 se torne menor que 0.5g.
 
+tempo = 0
+massa = float(input('Informe a quantidade de massa (em gramas): '))
+while massa >= 0.5:
+    tempo += 50  # tempo = tempo + 50
+    massa /= 2   # massa = massa / 2
+print(f'Tempo = {tempo} segundos')
+
 
 5. Faça um programa que, leia a temperatura dos 30 dias do mês de abril diga
 qual o dia mais quente e o dia mais frio do mês (obs: suponha que não haja
 empates).
+
+ndias = 30
+temp_quente = -100
+temp_frio = 100
+
+for dia in range(1,ndias+1):
+    temp = int(input('Temperatura do dia '+ str(dia) + ': '))
+    if temp > temp_quente:
+        temp_quente = temp
+        dia_quente = dia
+    if temp < temp_frio:
+        temp_frio = temp
+        dia_frio = dia
+
+print()
+print(f'Mais quente: dia {dia_quente}, com {temp_quente} graus.')
+print(f'Mais frio  : dia {dia_frio}, com {temp_frio} graus.')
 
 
 6. Faça um programa que solicite ao usuário uma senha. Caso a senha digitada
@@ -37,6 +93,8 @@ programa deverá mostrar senha incorreta e pedir para o usuário tentar
 novamente digitar a senha correta. Mas, se o usuário fornecer três senhas
 incorretas, o programa deverá encerrar a sua execução. (Obs: a senha correta
 é “abcd”).
+
+
 
 
 7. Uma certa empresa pretende verificar se os seus empregados estarão
