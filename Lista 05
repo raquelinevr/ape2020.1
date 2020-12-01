@@ -3,9 +3,13 @@ LISTA DE EXERCÍCIOS: ESTRUTURAS DE REPETIÇÃO (COMPLEMENTAR)
 1. Faça um programa que leia um número N, calcule e mostre os N primeiros
 termos da sequência de Fibonacci (0, 1, 1, 2, 3, 5, 8, 13, ...). O valor lido para
 N sempre será maior ou igual a 2.
+
+
 2. Um número é, por definição, primo se ele não tem divisores, exceto 1 e ele
 próprio. Faça um programa que mostre todos os números primos de 1 a N
 (obs: N será lido).
+
+
 3. O algoritmo de Euclides para determinar o MDC entre dois números inteiros
 consiste em formar uma sequência de inteiros cujos dois primeiros
 elementos são os números dados. Cada elemento seguinte é o resto da
@@ -14,19 +18,27 @@ mesma for nulo. O MDC entre os números dados é o elemento anterior ao
 zero. Faça uma implementação deste programa.
 Ex: Dados os números 12 e 15, será formada a sequência: 12, 15, 12, 3, 0 e o
 MDC entre 12 e 15 é 3.
+
+
 4. Um dado material radioativo perde metade de sua massa a cada 50
 segundos. Faça um programa que leia uma certa quantidade de massa, em
 gramas, deste material e imprima o tempo necessário para que sua massa
 se torne menor que 0.5g.
+
+
 5. Faça um programa que, leia a temperatura dos 30 dias do mês de abril diga
 qual o dia mais quente e o dia mais frio do mês (obs: suponha que não haja
 empates).
+
+
 6. Faça um programa que solicite ao usuário uma senha. Caso a senha digitada
 esteja correta, o programa deverá mostrar senha correta. Caso contrário, o
 programa deverá mostrar senha incorreta e pedir para o usuário tentar
 novamente digitar a senha correta. Mas, se o usuário fornecer três senhas
 incorretas, o programa deverá encerrar a sua execução. (Obs: a senha correta
 é “abcd”).
+
+
 7. Uma certa empresa pretende verificar se os seus empregados estarão
 qualificados ou não para aposentadoria em 2021.
 Para estar em condições, um dos seguintes requisitos deve ser satisfeito:
@@ -43,6 +55,8 @@ requisitos ou “Não Pode Requerer Aposentadoria” caso contrário.
 Ao final de cada execução, o programa deverá perguntar se o usuário deseja
 fazer nova verificação. Se sim, o programa deverá repetir tudo novamente,
 caso contrário deverá encerrar.
+
+
 8. Faça um programa que acompanhe um set de uma partida de vôlei. O
 programa deve ler o código da equipe (A ou B) que ganhou o ponto e
 responder quem ganha a partida. A partida chega ao final se uma das equipes
