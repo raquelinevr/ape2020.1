@@ -30,13 +30,11 @@ print(f'Elementos ímpares: {impar} ')
 print(f'Soma dos elementos: {soma} ')
 print(f'Média dos elementos: {media:.1f} ')
 
+
 2. Escreva um programa que leia um vetor gabarito de 10 elementos.
 Cada elemento de gabarito contém a letra A, B, C, D ou E, correspondente as
-opções corretas de uma prova objetiva.
-Em seguida o programa deve ler um outro vetor contendo as respostas de um
-aluno.
-O programa deve comparar os dois vetores e escrever o número de acertos do
-aluno.
+opções corretas de uma prova objetiva. Em seguida o programa deve ler um outro vetor contendo as respostas de um
+aluno. O programa deve comparar os dois vetores e escrever o número de acertos do aluno.
 
 total=0
 v=10
