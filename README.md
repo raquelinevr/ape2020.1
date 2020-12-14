@@ -10,6 +10,6 @@ Avaliações - Atividades em EAD
 
 04 - Estrutura de Repetição (WHILE)
 
-04 - Estrutura de Repetição (WHILE - COMPLEMENTAR)
+05 - Estrutura de Repetição (WHILE - COMPLEMENTAR)
 
-05 - Matriz
+06 - Matriz
