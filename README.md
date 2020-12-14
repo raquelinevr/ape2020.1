@@ -9,3 +9,7 @@ Avaliações - Atividades em EAD
 03 - Estrutura de Repetição (FOR)
 
 04 - Estrutura de Repetição (WHILE)
+
+04 - Estrutura de Repetição (WHILE - COMPLEMENTAR)
+
+05 - Matriz
